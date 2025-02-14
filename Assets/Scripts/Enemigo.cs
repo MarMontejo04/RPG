@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
 public static int vidaEnemigo = 1;
-private float frecAtaque = 2.5f, tiempoSigAtaque = 0,inicaConteo;
+
 void Start() {
 vidaEnemigo = 1;
 }
