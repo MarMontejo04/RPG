@@ -10,180 +10,180 @@ public class MovCamara : MonoBehaviour
     {
         if(obj.gameObject.tag == "portal1") //Entrada a la aldea (escenario 2)
         {
-            Vector3 posicionCamara = new Vector3(0, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(0, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(0, 8.21f, 0);
+            Vector3 posicionPlayer = new Vector3(0.05f, -3.2f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal2") //Regreso a escenario 1
         {
-            Vector3 posicionCamara = new Vector3(0, -0.16f, -10);
+            Vector3 posicionCamara = new Vector3(0, -11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(0, 2.97f, 0);
+            Vector3 posicionPlayer = new Vector3(0.05f, -7.77f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal3") // Entrada escenario 8
         {
-            Vector3 posicionCamara = new Vector3(19.9f, 11.67f, -10);
+            Vector3 posicionCamara = new Vector3(20, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(13.216f, 10.526f, 0);
+            Vector3 posicionPlayer = new Vector3(12.73f, -0.97f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal4") // Entrada escenario 6
         {
-            Vector3 posicionCamara = new Vector3(0, 23.5f, -10);
+            Vector3 posicionCamara = new Vector3(0, 11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(4.088f, 19.938f, 0);
+            Vector3 posicionPlayer = new Vector3(5.15f, 7.85f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal5") //Entrada a fabrica (escenario 3)
         {
-            Vector3 posicionCamara = new Vector3(-19.86f, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(-20, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-12.63f, 12.3f, 0);
+            Vector3 posicionPlayer = new Vector3(-12.86f, -0.09f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal6") // Regreso a la aldea (escenario 2)
         {
-            Vector3 posicionCamara = new Vector3(0, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(0, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-7.24f, 11.94f, 0);
+            Vector3 posicionPlayer = new Vector3(-7.2f, 0.11f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal7") //Entrada escenario 5
         {
-            Vector3 posicionCamara = new Vector3(-19.87f, 23.51f,-10);
+            Vector3 posicionCamara = new Vector3(-20, 11,-10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-17.32f,19.969f,0);
+            Vector3 posicionPlayer = new Vector3(-17.37f, 7.92f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
-        if (obj.gameObject.tag == "portal8") // Entraada ecenario 4
+        if (obj.gameObject.tag == "portal8") // Entrada ecenario 4
         {
-            Vector3 posicionCamara = new Vector3(-19.85f, -0.16f, -10);
+            Vector3 posicionCamara = new Vector3(-20, -11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-17.28f, 3.44f, 0);
+            Vector3 posicionPlayer = new Vector3(-17.07f, -7.99f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal9") //Regreso escenario 3
         {
-            Vector3 posicionCamara = new Vector3(-19.86f, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(-20, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-17.28f, 7.97f, 0);
+            Vector3 posicionPlayer = new Vector3(-17, -3.2f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal10") // Regreso escenario 3
         {
-            Vector3 posicionCamara = new Vector3(-19.86f, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(-20, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-17.32f, 14.98f, 0);
+            Vector3 posicionPlayer = new Vector3(-17.47f, 3, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal11") // Entrada escenario 6
         {
-            Vector3 posicionCamara = new Vector3(0, 23.5f, -10);
+            Vector3 posicionCamara = new Vector3(0, 11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-7.075f, 22.45f, 0);
+            Vector3 posicionPlayer = new Vector3(-7.09f, 10.05f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal12") // Regreso escenario 5
         {
-            Vector3 posicionCamara = new Vector3(-19.87f, 23.51f, -10);
+            Vector3 posicionCamara = new Vector3(-20, 11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(-12.81f, 22.38f, 0);
+            Vector3 posicionPlayer = new Vector3(-12.84f, 9.89f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal13") // Regreso escenario 2
         {
-            Vector3 posicionCamara = new Vector3(0, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(0, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(4.064f, 15.175f, 0);
+            Vector3 posicionPlayer = new Vector3(4.96f, 3.15f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal14") // Entrada escenario 7
         {
-            Vector3 posicionCamara = new Vector3(19.9f, 23.61f, -10);
+            Vector3 posicionCamara = new Vector3(20, 11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(12.679f, 26.916f, 0);
+            Vector3 posicionPlayer = new Vector3(12.78f, 14, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal15") // Regreso escenario 6
         {
-            Vector3 posicionCamara = new Vector3(0, 23.5f, -10);
+            Vector3 posicionCamara = new Vector3(0, 11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(7.1146f, 26.65f, 0);
+            Vector3 posicionPlayer = new Vector3(7.35f, 13.9f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal16") // Entrada escenario 8
         {
-            Vector3 posicionCamara = new Vector3(19.9f, 11.67f, -10);
+            Vector3 posicionCamara = new Vector3(20, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(17.99f, 14.85f, 0);
+            Vector3 posicionPlayer = new Vector3(17.98f, 3.01f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal17") // Regreso escenario 7
         {
-            Vector3 posicionCamara = new Vector3(19.9f, 23.61f, -10);
+            Vector3 posicionCamara = new Vector3(20, 11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(17.66f, 20.05f, 0);
+            Vector3 posicionPlayer = new Vector3(18.01f, 7.87f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal18") // Regreso escenario 2
         {
-            Vector3 posicionCamara = new Vector3(0, 11.61f, -10);
+            Vector3 posicionCamara = new Vector3(0, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(7.276f, 10.418f, 0);
+            Vector3 posicionPlayer = new Vector3(7.01f, -1.02f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal19") // Entrada escenario 9
         {
-            Vector3 posicionCamara = new Vector3(19.9f, -0.2f, -10);
+            Vector3 posicionCamara = new Vector3(20, -11, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(20.39f, 3.237f, 0);
+            Vector3 posicionPlayer = new Vector3(20.53f, -8.04f, 0);
             this.transform.position = posicionPlayer;
 
         }
 
         if (obj.gameObject.tag == "portal20") // Regreso escenario 8
         {
-            Vector3 posicionCamara = new Vector3(19.9f, 11.67f, -10);
+            Vector3 posicionCamara = new Vector3(20, 0, -10);
             camara.transform.position = posicionCamara;
-            Vector3 posicionPlayer = new Vector3(20.39f, 8.258f, 0);
+            Vector3 posicionPlayer = new Vector3(20.56f, -3.07f, 0);
             this.transform.position = posicionPlayer;
 
         }
