@@ -4292,7 +4292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personaje: {fileID: 0}
+  personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 191532560}
   - {fileID: 341228710}
@@ -31940,7 +31940,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1406043167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32024,7 +32024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7371b6d01f3af974fb083d1469372a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velMov: 1.1
+  velMov: 2
   rb: {fileID: 1406043166}
   anim: {fileID: 1406043164}
 --- !u!114 &1406043170
@@ -32039,7 +32039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 412b97388e1cec2419920538cf6d63cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camara: {fileID: 0}
+  camara: {fileID: 519420031}
 --- !u!1 &1411136134
 GameObject:
   m_ObjectHideFlags: 0
