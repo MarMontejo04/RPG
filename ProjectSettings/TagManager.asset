@@ -24,6 +24,8 @@ TagManager:
   - portal18
   - portal19
   - portal20
+  - enemigo
+  - limites
   layers:
   - Default
   - TransparentFX
@@ -85,7 +87,7 @@ TagManager:
   - name: NPCs
     uniqueID: 4193567885
     locked: 0
-  - name: Enemigos
+  - name: enemigo
     uniqueID: 2794232035
     locked: 0
   m_RenderingLayers:
