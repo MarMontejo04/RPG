@@ -11,8 +11,8 @@ public class Enemigo : MonoBehaviour
 
     public Transform personaje;
     private NavMeshAgent agente;
-    public Transform[] puntosRuta;
-    private int indiceRuta = 0;
+    public Transform [] puntosRuta;
+    private int indiceRuta;
     private bool playerEnRango = false;
     [SerializeField] private float distanciaDeteccionPlayer;
     private SpriteRenderer spriteEnemigo;
@@ -22,12 +22,10 @@ public class Enemigo : MonoBehaviour
     {
         agente = GetComponent<NavMeshAgent>();
         spriteEnemigo = GetComponent<SpriteRenderer>();
-
     }
 
-
     void Start() {
-    vidaEnemigo = 1;
+        vidaEnemigo = 1;
         agente.updateRotation = false;
         agente.updateUpAxis = false;
     }
@@ -36,16 +34,18 @@ public class Enemigo : MonoBehaviour
         this.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         float distancia = Vector3.Distance(personaje.position, this.transform.position);
 
-        if(this.transform.position == puntosRuta[indiceRuta].position)
+        if(Vector3.Distance(this.transform.position, puntosRuta[indiceRuta].position) < 0.1f)
         {
             if(indiceRuta < puntosRuta.Length - 1)
             {
                 indiceRuta++;
-            }else if(indiceRuta == puntosRuta.Length - 1)
+            }
+            else if(indiceRuta == puntosRuta.Length - 1)
             {
                 indiceRuta = 0;
             }
         }
+
         if(distancia < distanciaDeteccionPlayer)
         {
             playerEnRango = true;
@@ -105,9 +105,11 @@ public class Enemigo : MonoBehaviour
     }   
 
     public void TomarDano(int dano) {
-    vidaEnemigo -= dano;
+        vidaEnemigo -= dano;
         if (vidaEnemigo <= 0) {
-        Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
+    
+
 }
