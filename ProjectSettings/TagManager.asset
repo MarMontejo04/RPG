@@ -87,7 +87,7 @@ TagManager:
   - name: NPCs
     uniqueID: 4193567885
     locked: 0
-  - name: enemigo
+  - name: Enemigo
     uniqueID: 2794232035
     locked: 0
   m_RenderingLayers:
