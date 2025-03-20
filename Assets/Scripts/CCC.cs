@@ -36,13 +36,13 @@ tiempoSigAtaque = tiempoEntreAtaques;
 
 private void Golpe() {
     if (Movplayer.dirAtaque == 1) {
-        anim.SetTrigger("ataquefront");
+        anim.SetTrigger("GolpeAbajo");
     } else if (Movplayer.dirAtaque == 2) {
-        anim.SetTrigger("ataqueBack");
+        anim.SetTrigger("GolpeArriba");
     } else if (Movplayer.dirAtaque == 3) {
-    anim.SetTrigger("ataqueLeft");
+    anim.SetTrigger("GolpeIzquierda");
     } else if (Movplayer.dirAtaque == 4) {
-    anim.SetTrigger("ataqueRight");
+    anim.SetTrigger("GolpeDerecha");
     }
 }
 

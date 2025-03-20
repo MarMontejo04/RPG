@@ -34722,8 +34722,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controladorGolpe: {fileID: 408037275}
-  radioGolpe: 0
-  "da\xF1oGolpe": 0
+  radioGolpe: 0.4
+  "da\xF1oGolpe": 2
   tiempoEntreAtaques: 0
   tiempoSigAtaque: 0
 --- !u!1 &1411136134
@@ -42829,7 +42829,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809846321}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e04976799df50f54ba128eff723155a7, type: 3}
   m_Name: 

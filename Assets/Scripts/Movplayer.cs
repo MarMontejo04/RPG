@@ -23,9 +23,9 @@ public static int dirAtaque =0;
 
 void FixedUpdate() {
     Movimiento();
-    if (CCC.atacando == false && CAD.disparando == false) {
-    Animacionesplayer();
-    }
+     if (CCC.atacando == false && CAD.disparando == false) { 
+     Animacionesplayer();
+     }
 }
 
     private void Movimiento()
