@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      personaje de derecha_PELEANDO_2_0: -6752301147168798985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
