@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      personaje de izquierda_golpe_1_0: 8270882496241967159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
