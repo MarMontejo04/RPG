@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac8a6d4fbb1feb43ac3895e2569a6a0, type: 3}
+  m_Name: DialogoNPC1
+  m_EditorClassIdentifier: 
+  nombreNPC: Gabriel
+  retratoNPC: {fileID: 0}
+  lineasDialogo:
+  - "!Hola\xA1"
+  - Espero verte pronto
+  autoProgresionLineas: 0101
+  autoProgresionRetraso: 1.5
+  velocidadEscritura: 0.05
+  voz: {fileID: 0}

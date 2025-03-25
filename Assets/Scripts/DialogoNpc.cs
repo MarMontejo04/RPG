@@ -1,11 +1,16 @@
 using UnityEngine;
 
-public class DialogoNpc :MonoBehaviour
+[CreateAssetMenu(fileName = "NuevoDialogoNPC", menuName = "Dialogo NPC")]
+public class DialogoNpc :ScriptableObject
 {
-    public GameObject txtDialogo;
+    public string nombreNPC;
+    public Sprite retratoNPC;
+    public string[] lineasDialogo;
+    public bool[] autoProgresionLineas;
+    public float autoProgresionRetraso = 1.5f;
+    public float velocidadEscritura = 0.05f;
+    public AudioClip voz;
+    
 
-    private void OnMouseDown(){
-        this.gameObject.SetActive(false);
-    }
     
 }
