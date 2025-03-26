@@ -2,80 +2,95 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using System.Collections.Generic;
 
 public class Npc : MonoBehaviour
 {
-    public DialogoNpc dataDialogo;
+    [Header("Panel de diálogo")]
     public GameObject panelDialogo;
     public TMP_Text textoDialogo, textoNombre;
-    public Image imagenRetrato;
+    public Image retrato;
 
-    private int indiceDialogo;
-    private bool estaEscribiendo, dialogoActivo;
-    public bool playerEnRango;
-    
-    void Update(){
-        if(Input.GetKeyDown(KeyCode.E) && playerEnRango){
-            IniciarDialogo();
-        }
-    }
-    void IniciarDialogo(){
-        if (dialogoActivo) return;
+    [Header("Datos del NPC")]
+    public string nombreNPC;
+    public Sprite retratoNPC;
+    public string[] dialogo;
+    public float velocidadEscritura = 0.05f;
 
-        dialogoActivo = true;
-        indiceDialogo = 0;
+    private int indice;
+    private bool playerEnRango;
+    private bool escribiendo = false;
 
-        textoNombre.SetText(dataDialogo.name);
-        imagenRetrato.sprite = dataDialogo.retratoNPC;
-
-        panelDialogo.SetActive(true);
-        FindFirstObjectByType<Movplayer>().puedeMoverse = false;
-
-        StartCoroutine(EscribirLineas());
-        
-    }
-
-    void SiguienteLinea(){
-        if(estaEscribiendo){
-            StopAllCoroutines();
-            textoDialogo.SetText(dataDialogo.lineasDialogo[indiceDialogo]);
-            estaEscribiendo=false;
-        }else if(++indiceDialogo < dataDialogo.lineasDialogo.Length){
-            StartCoroutine(EscribirLineas());
-        }else{
-            TerminarDialogo();
-        }
-    }
-    
-    IEnumerator EscribirLineas(){
-        estaEscribiendo = true;
-        textoDialogo.SetText("");
-
-        foreach(char letter in dataDialogo.lineasDialogo[indiceDialogo]){
-            textoDialogo.text += letter;
-            yield return new WaitForSeconds(dataDialogo.velocidadEscritura);
-        }
-        estaEscribiendo = false;
-
-        if(dataDialogo.autoProgresionLineas.Length > indiceDialogo && dataDialogo.autoProgresionLineas[indiceDialogo]){
-            yield return new WaitForSeconds(dataDialogo.autoProgresionRetraso);
-        }
-
-        
-    }
-
-     void TerminarDialogo()
+    void Update()
     {
-        StopAllCoroutines();
-        dialogoActivo = false;
-        textoDialogo.SetText("");
-        panelDialogo.SetActive(false);
-        FindFirstObjectByType<Movplayer>().puedeMoverse = true;
-
+        if (Input.GetKeyDown(KeyCode.E) && playerEnRango)
+        {
+            if (panelDialogo.activeInHierarchy)
+            {
+                SiguienteLinea();
+            }
+            else
+            {
+                IniciarDialogo();
+            }
+        }
     }
 
-     private void OnTriggerEnter2D(Collider2D other)
+    void IniciarDialogo()
+    {
+        StopAllCoroutines(); // Detiene cualquier escritura anterior
+        panelDialogo.SetActive(true);
+        textoNombre.text = nombreNPC;
+        retrato.sprite = retratoNPC;
+        indice = 0;
+        StartCoroutine(Escribir());
+    }
+
+    IEnumerator Escribir()
+    {
+        escribiendo = true;
+        textoDialogo.text = "";
+
+        foreach (char letter in dialogo[indice].ToCharArray())
+        {
+            textoDialogo.text += letter;
+            yield return new WaitForSeconds(velocidadEscritura);
+        }
+
+        escribiendo = false;
+    }
+
+    void SiguienteLinea()
+    {
+        if (escribiendo)
+        {
+            StopAllCoroutines(); // Detiene la escritura actual
+            textoDialogo.text = dialogo[indice]; // Muestra la línea completa de inmediato
+            escribiendo = false;
+            return;
+        }
+
+        if (indice < dialogo.Length - 1)
+        {
+            indice++;
+            StopAllCoroutines(); // Asegura que la escritura anterior no interfiera
+            textoDialogo.text = "";
+            StartCoroutine(Escribir());
+        }
+        else
+        {
+            ResetearDialogo();
+        }
+    }
+
+    void ResetearDialogo()
+    {
+        StopAllCoroutines(); // Evita que el diálogo se siga escribiendo al cerrar
+        textoDialogo.text = "";
+        indice = 0;
+        panelDialogo.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
@@ -83,11 +98,12 @@ public class Npc : MonoBehaviour
         }
     }
 
-     private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerEnRango = false;
+            ResetearDialogo();
         }
     }
 }

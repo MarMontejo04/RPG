@@ -11,7 +11,6 @@ private Vector2 dirMov;
 public float velMov;
 public Rigidbody2D rb;
 public Animator anim;   
-public bool puedeMoverse = true;
 
 private string capaIdle = "Idle";
 private string capaCaminar = "Caminar";
@@ -24,10 +23,7 @@ public static int dirAtaque =0;
 
 
 void FixedUpdate() {
-    if (puedeMoverse)
-        {
-            Movimiento();
-        }
+        Movimiento();
 
         if (CCC.atacando == false && CAD.disparando == false)
         {

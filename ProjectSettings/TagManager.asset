@@ -81,11 +81,11 @@ TagManager:
   - name: Objetos
     uniqueID: 3075470837
     locked: 0
-  - name: Player
-    uniqueID: 3676833829
-    locked: 0
   - name: NPCs
     uniqueID: 4193567885
+    locked: 0
+  - name: Player
+    uniqueID: 3676833829
     locked: 0
   - name: Enemigo
     uniqueID: 2794232035

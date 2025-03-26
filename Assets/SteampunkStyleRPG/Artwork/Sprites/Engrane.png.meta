@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c43c1ee8476a98f419992b00a642cbb2
+guid: 41b694f88962be94ea5436d89c666ef4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3074425826407239965
-    second: arbol_0
+      213: 3246046463881131418
+    second: Engrane_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arbol_0
+      name: Engrane_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 61
-        height: 128
+        x: 5
+        y: 3
+        width: 56
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eea5b8fff17555d0800000000000000
-      internalID: -3074425826407239965
+      spriteID: a953c048f064c0d20800000000000000
+      internalID: 3246046463881131418
       vertices: []
       indices: 
       edges: []
