@@ -26,6 +26,7 @@ TagManager:
   - portal20
   - enemigo
   - limites
+  - Moneda
   layers:
   - Default
   - TransparentFX

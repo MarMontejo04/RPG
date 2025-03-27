@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 311980337f3fd6c439eae47d7c65dc5e
+guid: 39c1d053e8852fb4b8fd9f92acb342e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4337987320353912929
-    second: arbol_2_0
+      213: -7516321477880226671
+    second: contador_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arbol_2_0
+      name: contador_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 61
-        height: 128
+        x: 97
+        y: 97
+        width: 318
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f97082a048f5cc3c0800000000000000
-      internalID: -4337987320353912929
+      spriteID: 19c5f456079a0b790800000000000000
+      internalID: -7516321477880226671
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      arbol_2_0: -4337987320353912929
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
