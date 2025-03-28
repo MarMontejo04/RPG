@@ -90,17 +90,17 @@ public class Npc : MonoBehaviour
         panelDialogo.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D obj)
     {
-        if (other.CompareTag("Player"))
+        if (obj.tag == "Player")
         {
             playerEnRango = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D obj)
     {
-        if (other.CompareTag("Player"))
+        if (obj.tag == "Player")
         {
             playerEnRango = false;
             ResetearDialogo();

@@ -10,7 +10,7 @@ public Image vidaPlayer;
 private float anchoVidasPlayer;
 public static int vida; private bool haMuerto;
 public GameObject gameOver;
-private const int vidasINI = 1;
+private const int vidasINI = 5;
 public static int puedePerderVida = 1;
 
 void Start()
@@ -37,7 +37,7 @@ StartCoroutine(EjecutaMuerte());
 }
 
 
-private void DibujaVida (int vida) {
+public void DibujaVida (int vida) {
 RectTransform transformaImagen = vidaPlayer.GetComponent<RectTransform>();
 transformaImagen.sizeDelta = new Vector2(anchoVidasPlayer * (float)vida / (float)vidasINI, transformaImagen.sizeDelta.y);
 }

@@ -26,6 +26,9 @@ TagManager:
   - portal20
   - enemigo
   - limites
+  - botiquin
+  - brazo
+  - engrane
   layers:
   - Default
   - TransparentFX
