@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      icono equis_0: 1361605359663268738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
