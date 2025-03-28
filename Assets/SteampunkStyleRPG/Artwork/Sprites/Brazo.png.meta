@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brazo_0: 2987565062754723674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
