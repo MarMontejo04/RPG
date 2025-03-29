@@ -29,6 +29,7 @@ TagManager:
   - botiquin
   - brazo
   - engrane
+  - Moneda
   layers:
   - Default
   - TransparentFX
@@ -95,6 +96,9 @@ TagManager:
     locked: 0
   - name: Coleccionables
     uniqueID: 3712357021
+    locked: 0
+  - name: Monedas
+    uniqueID: 3570413447
     locked: 0
   m_RenderingLayers:
   - Default
