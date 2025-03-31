@@ -10,7 +10,7 @@ public Image vidaPlayer;
 private float anchoVidasPlayer;
 public static int vida; private bool haMuerto;
 public GameObject gameOver;
-private const int vidasINI = 5;
+public const int vidasINI = 10;
 public static int puedePerderVida = 1;
 
 void Start()
@@ -18,7 +18,7 @@ void Start()
     anchoVidasPlayer = vidaPlayer.GetComponent<RectTransform>().sizeDelta.x;
     haMuerto = false;
     vida = vidasINI;
-    gameOver .SetActive(false);
+    gameOver.SetActive(false);
 }
 
 public void TomarDano(int dano)
@@ -35,8 +35,6 @@ public void TomarDano(int dano)
         StartCoroutine(EjecutaMuerte());
     }
 }
-
-
 public void DibujaVida (int vida) {
     RectTransform transformaImagen = vidaPlayer.GetComponent<RectTransform>();
     transformaImagen.sizeDelta = new Vector2(anchoVidasPlayer * (float)vida / (float)vidasINI, transformaImagen.sizeDelta.y);

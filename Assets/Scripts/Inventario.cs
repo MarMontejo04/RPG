@@ -10,7 +10,8 @@ public class Inventario : MonoBehaviour
     [SerializeField] private string[] valoresInventario;
     private int numBotiquines, numEngranes, numBrazos;
     Button boton;
-    public  Sprite contenedor, botiquin, engrane, brazo;
+    public  Sprite contenedor, fondo, botiquin, engrane, brazo;
+    private GameObject Player;
    
 
     void Start()
@@ -20,6 +21,8 @@ public class Inventario : MonoBehaviour
         numBotiquines = 0;
         numBrazos = 0;
         numEngranes = 0;
+        Player = GameObject.Find("Player");
+        contenedor = fondo;
     }
 
     public void StatusInventario(){
@@ -81,12 +84,49 @@ public class Inventario : MonoBehaviour
         }
         boton.GetComponent<Image>().sprite = contenedor;
     }
+     public void UsarItem(int pos)
+    {
+        bool itemUsado = false;
+        if (ColeccionablePlayer.objAColeccionar == "botiquin")
+        {
+            if(VidasPlayer.vida < VidasPlayer.vidasINI){
+            VidasPlayer.vida++;
+            numBotiquines--;
+            boton.GetComponentInChildren<Text>().text = "x" + numBotiquines.ToString();
+            Player.GetComponent<VidasPlayer>().DibujaVida(VidasPlayer.vida);
+            itemUsado = true; 
+            }
+           
+        }
+        else if (ColeccionablePlayer.objAColeccionar == "brazo")
+        {
+            if(EnergiaPlayer.energia < EnergiaPlayer.energiaMax){
+            EnergiaPlayer.energia +=20;
+            numBrazos--;
+            boton.GetComponentInChildren<Text>().text = "x" + numBrazos.ToString();
+            Player.GetComponent<EnergiaPlayer>().DibujaEnergia(EnergiaPlayer.energia);
+            itemUsado = true; 
+            }
+        }
+        if(itemUsado && (numBotiquines == 0 || numBrazos == 0)){
+        valoresInventario[pos] = "";
+        boton.GetComponentInChildren<Text>().text = "";
+        GameObject.Find("Elemento (" + pos + ")").GetComponent<Button>().GetComponent<Image>().sprite = fondo;
+        
+        }else if(itemUsado){
+            valoresInventario[pos] = "";
+            GameObject.Find("Elemento (" + pos + ")").GetComponent<Button>().GetComponent<Image>().sprite = contenedor;
+        }
+        
+    }
 
     private void BorrarArreglo(){
         for(int i = 0; i < valoresInventario.Length; i++){
             valoresInventario[i]="";
         }
     }
+
+   
 
    
 }
