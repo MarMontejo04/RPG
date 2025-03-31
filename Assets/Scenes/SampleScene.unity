@@ -14909,7 +14909,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2059376751}
   m_Father: {fileID: 1943601363}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14960,7 +14961,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 441431945}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 858954098}
+        m_TargetAssemblyTypeName: TiendaController, Assembly-CSharp
+        m_MethodName: ComprarBrazo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &441431945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15538,6 +15551,7 @@ GameObject:
   - component: {fileID: 456267999}
   - component: {fileID: 456267998}
   - component: {fileID: 456268002}
+  - component: {fileID: 456268003}
   m_Layer: 0
   m_Name: Npc (3)
   m_TagString: Untagged
@@ -15734,6 +15748,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tienda: {fileID: 340617896}
+--- !u!114 &456268003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456267996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 572f3d49159cab74cba054a0724f7b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiendaUI: {fileID: 340617896}
+  itemPrefab: {fileID: 4398040585022838091, guid: 0b7daeab354dbd24582551d08ccdccd9, type: 3}
+  dropPoint: {fileID: 1267429216}
+  itemCost: 10
 --- !u!1 &458174092
 GameObject:
   m_ObjectHideFlags: 0
@@ -21538,6 +21568,56 @@ Transform:
   - {fileID: 242952727}
   m_Father: {fileID: 1357023238}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &858954096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 858954097}
+  - component: {fileID: 858954098}
+  m_Layer: 0
+  m_Name: TiendaController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &858954097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858954096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19.838495, y: 0.928641, z: 0.05847115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &858954098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858954096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68b6f803fdd9794baa3fe0c973af198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventario: {fileID: 1280840543}
+  moneda: {fileID: 1434761423}
+  panelTienda: {fileID: 340617896}
+  dropPoint: {fileID: 1267429216}
+  botiquinPrefab: {fileID: 4398040585022838091, guid: 0b7daeab354dbd24582551d08ccdccd9, type: 3}
+  brazoPrefab: {fileID: 3249547129756404625, guid: 3485a81b5eb9bcd4584e9da8145c8003, type: 3}
 --- !u!1 &865456607
 GameObject:
   m_ObjectHideFlags: 0
@@ -29195,6 +29275,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1267429215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267429216}
+  m_Layer: 0
+  m_Name: PosicionDrop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1267429216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267429215}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.29, y: 1.5, z: -0.0068489835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1267767731
 GameObject:
   m_ObjectHideFlags: 0
@@ -32982,7 +33093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c400356b876552c4c87c95b509e44bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadMonedas: 1
+  cantidadMonedas: 50
 --- !u!1 &1439995785
 GameObject:
   m_ObjectHideFlags: 0
@@ -61011,6 +61122,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868087144}
   m_CullTransparentMesh: 1
+--- !u!1 &1868652177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868652178}
+  m_Layer: 0
+  m_Name: Vendedor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1868652178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868652177}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.256193, y: -1.633014, z: -0.033977993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1873586777
 GameObject:
   m_ObjectHideFlags: 0
@@ -62371,7 +62513,6 @@ RectTransform:
   m_Children:
   - {fileID: 1973652193}
   - {fileID: 441431943}
-  - {fileID: 2059376751}
   m_Father: {fileID: 340617897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -62935,7 +63076,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1973652195}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 858954098}
+        m_TargetAssemblyTypeName: TiendaController, Assembly-CSharp
+        m_MethodName: ComprarBotiquin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1973652195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64574,11 +64727,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1943601363}
+  m_Father: {fileID: 441431943}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 475.1, y: 0}
+  m_AnchoredPosition: {x: 225.29996, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059376752
@@ -66052,3 +66205,6 @@ SceneRoots:
   - {fileID: 942324632}
   - {fileID: 1768457464}
   - {fileID: 1434761421}
+  - {fileID: 1868652178}
+  - {fileID: 1267429216}
+  - {fileID: 858954097}
