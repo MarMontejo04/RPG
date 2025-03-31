@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System; // Necesario para usar 'Action'
+using System;
 
 public class Moneda : MonoBehaviour
 {
@@ -9,6 +9,13 @@ public class Moneda : MonoBehaviour
     public static event SumaMoneda sumaMoneda;
 
     [SerializeField] private int cantidadMonedas = 1; // Evita valores nulos
+
+    // Getter para acceder a la cantidad de monedas
+    public int CantidadMonedas
+    {
+        get { return cantidadMonedas; }
+        set { cantidadMonedas = value; }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,6 +30,4 @@ public class Moneda : MonoBehaviour
     }
 }
 
-     
- 
 
