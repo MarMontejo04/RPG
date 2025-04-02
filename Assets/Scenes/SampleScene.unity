@@ -6272,6 +6272,7 @@ MonoBehaviour:
   - {fileID: 189784933}
   - {fileID: 1878920116}
   distanciaDeteccionPlayer: 3
+  dropeable: {fileID: 641143934272950216, guid: 5bb1dc5e3285ed245a0eb81c5ad55d4b, type: 3}
 --- !u!70 &139160659
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -21612,7 +21613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68b6f803fdd9794baa3fe0c973af198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventario: {fileID: 1280840543}
   moneda: {fileID: 1434761423}
   panelTienda: {fileID: 340617896}
   dropPoint: {fileID: 1267429216}
@@ -60031,7 +60031,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809846321}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e04976799df50f54ba128eff723155a7, type: 3}
   m_Name: 

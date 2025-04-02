@@ -17,6 +17,7 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private float distanciaDeteccionPlayer;
     private SpriteRenderer spriteEnemigo;
     private Transform mirarHacia;
+    [SerializeField] private GameObject dropeable;
 
     private void Awake()
     {
@@ -107,6 +108,8 @@ public class Enemigo : MonoBehaviour
     public void TomarDano(int dano) {
         vidaEnemigo -= dano;
         if (vidaEnemigo <= 0) {
+             Vector2 v2Prefab = this.transform.position; 
+             Instantiate(dropeable, v2Prefab, transform.rotation);
             Destroy(gameObject);
         }
     }
