@@ -21612,7 +21612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68b6f803fdd9794baa3fe0c973af198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventario: {fileID: 1280840543}
   moneda: {fileID: 1434761423}
   panelTienda: {fileID: 340617896}
   dropPoint: {fileID: 1267429216}
