@@ -10,7 +10,7 @@ public class Inventario : MonoBehaviour
     [SerializeField] private string[] valoresInventario;
     private int numBotiquines, numEngranes, numBrazos;
     Button boton;
-    public  Sprite contenedor, fondo, botiquin, engrane, brazo;
+    public  Sprite contenedor, fondo, botiquin, brazo;
     private GameObject Player;
    
 
@@ -20,7 +20,6 @@ public class Inventario : MonoBehaviour
         BorrarArreglo();
         numBotiquines = 0;
         numBrazos = 0;
-        numEngranes = 0;
         Player = GameObject.Find("Player");
         contenedor = fondo;
     }
@@ -75,11 +74,6 @@ public class Inventario : MonoBehaviour
                 contenedor = brazo;
                 numBrazos++;
                 boton.GetComponentInChildren<Text>().text = "x" + numBrazos.ToString();
-                break;
-            case "engrane":
-                contenedor = engrane;
-                numEngranes++;
-                boton.GetComponentInChildren<Text>().text = "x" + numEngranes.ToString();
                 break;
         }
         boton.GetComponent<Image>().sprite = contenedor;
