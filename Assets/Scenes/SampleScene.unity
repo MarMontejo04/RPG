@@ -21179,9 +21179,7 @@ MonoBehaviour:
   nombreNPC: Selene Voss
   retratoNPC: {fileID: -5340672695716961377, guid: 111fde64a22be6a44976dc9ddd5e41e4, type: 3}
   dialogo:
-  - Hola
-  - Buena suerte
-  - Adios
+  - Puedes comprar suministros en la tienda...
   velocidadEscritura: 0.05
 --- !u!61 &590242113
 BoxCollider2D:
@@ -26976,6 +26974,7 @@ MonoBehaviour:
   dropPoint: {fileID: 1267429216}
   botiquinPrefab: {fileID: 4398040585022838091, guid: 0b7daeab354dbd24582551d08ccdccd9, type: 3}
   brazoPrefab: {fileID: 3249547129756404625, guid: 3485a81b5eb9bcd4584e9da8145c8003, type: 3}
+  textoMonedas: {fileID: 1471256459}
 --- !u!1 &860195174
 GameObject:
   m_ObjectHideFlags: 0
@@ -31483,7 +31482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Botiquin 5 monedas
+  m_text: Botiquin 10 monedas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39092,9 +39091,7 @@ MonoBehaviour:
   nombreNPC: Gearsworth-9
   retratoNPC: {fileID: -5003108256907708842, guid: 3bd7af125e1cfa5419928bf78a90588d, type: 3}
   dialogo:
-  - Hola
-  - Buena suerte
-  - Adios
+  - "\xBFEh? \xBFUn forastero? Hace a\xF1os que nadie llega por las v\xEDas del este..."
   velocidadEscritura: 0.05
 --- !u!61 &1308423039
 BoxCollider2D:
@@ -72242,10 +72239,10 @@ MonoBehaviour:
   nombreNPC: Jasper Flintlock
   retratoNPC: {fileID: 424582114697731820, guid: 05a3c599ba7130548966f8e51ac224fb, type: 3}
   dialogo:
-  - AHola
-  - Buena suerte
-  - Adios
-  - 
+  - "Dicen que las m\xE1quinas nos reemplazar\xE1n... pero a\xFAn no he visto una
+    que se queje del jefe\u201D"
+  - 'Consejo:'
+  - "Los enemigo peque\xF1os son mas rapidos, pero son mas debiles"
   velocidadEscritura: 0.05
 --- !u!61 &1725232562
 BoxCollider2D:
@@ -79848,7 +79845,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Brazo 10 monedas
+  m_text: Brazo 20 monedas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
