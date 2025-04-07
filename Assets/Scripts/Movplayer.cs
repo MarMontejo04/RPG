@@ -12,6 +12,7 @@ public class Movplayer : MonoBehaviour
 
     private string capaIdle = "Idle";
     private string capaCaminar = "Caminar";
+    private string capaAtaque = "Ataque";
     private bool PlayerMoviendose = false;
     private float ultimoMovX, ultimoMovY;
 
@@ -76,24 +77,25 @@ public class Movplayer : MonoBehaviour
         anim.SetFloat("movY", ultimoMovY);
     }
 
-    private void ActualizaCapa()
+   private void ActualizaCapa()
+{
+    if (!CCC.atacando && !CAD.disparando) // Simplificado con "!"
     {
-        if (CCC.atacando == false && CAD.disparando == false)
+        if (PlayerMoviendose)
         {
-            if (PlayerMoviendose)
-            {
-                activaCapa("Caminar");
-            }
-            else
-            {
-                activaCapa("Idle");
-            }
+            activaCapa("Caminar");
         }
         else
         {
-            activaCapa("Ataque");
+            activaCapa("Idle");
         }
     }
+    else  // ✅ Ahora el 'else' está correctamente colocado
+    {
+        activaCapa("Ataque");
+    }
+}
+
 
     private void activaCapa(string nombre)
     {

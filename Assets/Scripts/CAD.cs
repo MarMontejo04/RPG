@@ -12,6 +12,7 @@ public Transform puntoEmision;
 private Animator anim;
 public static int dirDisparo = 0;
 public static bool disparando = false;
+
 private GameObject Player;
 
     void Start() {
@@ -19,7 +20,6 @@ private GameObject Player;
         Player = GameObject.Find("Player");
 
     }
-
 
     void Update() { 
         if (tiempoSigAtaque < 0.05f && tiempoEntreAtaques > 0 ) {

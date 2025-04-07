@@ -15,13 +15,13 @@ public class CCC : MonoBehaviour
 
     private GameObject Player;
     
-    private void Start() {
+    void Start() {
         anim = GetComponent<Animator>();
         Player = GameObject.Find("Player");
     }
 
 
-    private void Update() { 
+    void Update() { 
         if (tiempoSigAtaque < 0.05f && tiempoEntreAtaques > 0 ) {
             atacando = false;
         }
@@ -33,6 +33,7 @@ public class CCC : MonoBehaviour
             activaCapa("Ataque");
             Golpe();
             tiempoSigAtaque = tiempoEntreAtaques;
+         
             if (EnergiaPlayer.energia > 0)
             {
                 EnergiaPlayer.energia -= 10; 
@@ -73,6 +74,6 @@ public class CCC : MonoBehaviour
         }
         anim.SetLayerWeight(anim.GetLayerIndex(nombre), 1);
     }
+    
 
 }
-
