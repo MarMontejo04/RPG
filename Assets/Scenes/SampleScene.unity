@@ -18337,9 +18337,9 @@ MonoBehaviour:
   nombreNPC: Dorian Greaves
   retratoNPC: {fileID: -7804042726886649815, guid: 307b519853b3c3842aed4768ce4c23c0, type: 3}
   dialogo:
-  - Hola
-  - Buena suerte
-  - Adios
+  - hola viajero
+  - "\xBFvas a querer algo?"
+  - sino, adios
   velocidadEscritura: 0.05
 --- !u!61 &456267999
 BoxCollider2D:
@@ -21483,8 +21483,10 @@ MonoBehaviour:
   retratoNPC: {fileID: -5340672695716961377, guid: 111fde64a22be6a44976dc9ddd5e41e4, type: 3}
   dialogo:
   - Hola
-  - Buena suerte
-  - Adios
+  - que bueno que llegaste
+  - me dijeron que vas a ayudarnos con los corruptos
+  - estan atras mio si tenias alguna duda
+  - suerte y ten cuidado
   velocidadEscritura: 0.05
 --- !u!61 &590242113
 BoxCollider2D:
@@ -40486,8 +40488,10 @@ MonoBehaviour:
   retratoNPC: {fileID: -5003108256907708842, guid: 3bd7af125e1cfa5419928bf78a90588d, type: 3}
   dialogo:
   - Hola
-  - Buena suerte
-  - Adios
+  - "\xBFte gustaria un trago?"
+  - mi local se llama liga de leyendas
+  - "\xBFno quieres entrar?"
+  - "\xA1no!... bueno"
   velocidadEscritura: 0.05
 --- !u!61 &1308423039
 BoxCollider2D:
@@ -74309,10 +74313,10 @@ MonoBehaviour:
   nombreNPC: Jasper Flintlock
   retratoNPC: {fileID: 424582114697731820, guid: 05a3c599ba7130548966f8e51ac224fb, type: 3}
   dialogo:
-  - AHola
-  - Buena suerte
-  - Adios
-  - 
+  - al parecer, todo esto parece un caos
+  - "y apenas llevamos una a\xF1o"
+  - pero aqui esta tranquilo
+  - es curioso
   velocidadEscritura: 0.05
 --- !u!61 &1725232562
 BoxCollider2D:
