@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemigo_2_derecha_2_0: 2294658489557703894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

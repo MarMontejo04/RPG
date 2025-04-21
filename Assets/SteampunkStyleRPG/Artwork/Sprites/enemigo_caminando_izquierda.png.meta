@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemigo_caminando_izquierda_0: -2406534065217827250
+      enemigo_caminando_izquierda_1: 53678272166042187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
