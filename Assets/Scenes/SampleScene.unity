@@ -45593,7 +45593,7 @@ MonoBehaviour:
   controladorGolpe: {fileID: 408037275}
   radioGolpe: 0.4
   "da\xF1oGolpe": 2
-  tiempoEntreAtaques: 0
+  tiempoEntreAtaques: 1
   tiempoSigAtaque: 0
 --- !u!114 &1406043174
 MonoBehaviour:

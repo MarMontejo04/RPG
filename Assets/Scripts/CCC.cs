@@ -23,13 +23,15 @@ public class CCC : MonoBehaviour
 
     void Update() { 
         if (tiempoSigAtaque < 0.05f && tiempoEntreAtaques > 0 ) {
-            atacando = false;
+            atacando = false; 
+            Debug.Log(atacando.ToString());
         }
         if (tiempoSigAtaque > 0) { 
             tiempoSigAtaque -= Time.deltaTime;
         }
         if (Input.GetButtonDown("Fire1") && tiempoSigAtaque <= 0) {
             atacando = true;
+            Debug.Log(atacando.ToString());
             activaCapa("Ataque");
             Golpe();
             tiempoSigAtaque = tiempoEntreAtaques;
