@@ -28,7 +28,7 @@ private GameObject Player;
         if (tiempoSigAtaque > 0) { 
             tiempoSigAtaque -= Time.deltaTime;
         }
-        if (Input.GetButtonDown("Fire2") && tiempoSigAtaque <= 0) {
+        if (Input.GetKeyDown(KeyCode.F) && tiempoSigAtaque <= 0) {
             disparando = true;
             activaCapa("Ataque");
             Dispara();
