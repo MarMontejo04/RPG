@@ -28749,7 +28749,7 @@ MonoBehaviour:
   dropPoint: {fileID: 1267429216}
   botiquinPrefab: {fileID: 4398040585022838091, guid: 0b7daeab354dbd24582551d08ccdccd9, type: 3}
   brazoPrefab: {fileID: 3249547129756404625, guid: 3485a81b5eb9bcd4584e9da8145c8003, type: 3}
-  textoMonedas: {fileID: 0}
+  textoMonedas: {fileID: 1471256459}
 --- !u!1 &860195174
 GameObject:
   m_ObjectHideFlags: 0
@@ -49918,7 +49918,7 @@ GameObject:
   - component: {fileID: 1537052355}
   m_Layer: 0
   m_Name: Bardas
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
