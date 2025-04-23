@@ -6942,6 +6942,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 139160657}
+  anim: {fileID: 139160660}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 191532560}
@@ -6996,9 +6999,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139160654}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 40e4c06c1beea9c42abd6062c29a516b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7365,7 +7368,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150972308}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
   m_CullingMode: 0
@@ -7418,6 +7421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 150972312}
+  anim: {fileID: 150972311}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 950960625}
@@ -19711,7 +19717,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485300507}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
   m_CullingMode: 0
@@ -19764,6 +19770,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 485300511}
+  anim: {fileID: 485300510}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 1794187198}
@@ -34477,9 +34486,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053215308}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 40e4c06c1beea9c42abd6062c29a516b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -34530,6 +34539,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 1053215312}
+  anim: {fileID: 1053215311}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 1774760133}
@@ -40603,9 +40615,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251424196}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 40e4c06c1beea9c42abd6062c29a516b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -40656,6 +40668,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 1251424200}
+  anim: {fileID: 1251424199}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 1794187198}
@@ -41274,9 +41289,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274026247}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: f5104c7b733456c48b3bce084772bfe5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -41327,6 +41342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 1274026251}
+  anim: {fileID: 1274026250}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 917363759}
@@ -77196,9 +77214,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795316423}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 003883354887fa74cb266757990d01c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: f5104c7b733456c48b3bce084772bfe5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -77249,6 +77267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4293a90513b834d9186537a7ef9897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velMov: 0
+  rb: {fileID: 1795316427}
+  anim: {fileID: 1795316426}
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 89892691}

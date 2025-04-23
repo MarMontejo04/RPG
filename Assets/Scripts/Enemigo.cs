@@ -8,7 +8,11 @@ public class Enemigo : MonoBehaviour
 {
     public static int vidaEnemigo = 1;
     private float frecAtaque = 2.5f, tiempoSigAtaque = 0, iniciaConteo;
-
+    private Animator animator;
+    private Vector2 dirMov;
+    public float velMov;
+    public Rigidbody2D rb;
+    public Animator anim;
     public Transform personaje;
     private NavMeshAgent agente;
     public Transform [] puntosRuta;
@@ -23,12 +27,38 @@ public class Enemigo : MonoBehaviour
     {
         agente = GetComponent<NavMeshAgent>();
         spriteEnemigo = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     void Start() {
         vidaEnemigo = 1;
         agente.updateRotation = false;
         agente.updateUpAxis = false;
+    }
+
+    void FixedUpdate() {
+        Movimiento();
+        ActualizarAnimaciones();
+    }
+
+    private void ActualizarAnimaciones() {
+        float velocidad = agente.velocity.magnitude;
+        animator.SetBool("IsMover", velocidad > 0.1f);
+        if(velocidad >= 0.1)
+        {
+            Vector3 direccionMovimiento = agente.velocity.normalized;
+            animator.SetFloat("movX", direccionMovimiento.x);
+            animator.SetFloat("movY", direccionMovimiento.y);
+        }
+
+    }
+
+    private void Movimiento() {
+        float movX = Input.GetAxisRaw("Horizontal");
+        float movY = Input.GetAxisRaw("Vertical");
+        dirMov = new Vector2(movX, movY).normalized;
+        rb.linearVelocity = new Vector2(dirMov.x * velMov, dirMov.y * velMov);
+
     }
 
     void Update() {
