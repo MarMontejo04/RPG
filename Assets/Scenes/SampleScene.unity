@@ -2870,7 +2870,7 @@ GameObject:
   - component: {fileID: 2057291}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3004,7 +3004,7 @@ GameObject:
   - component: {fileID: 2570382}
   m_Layer: 0
   m_Name: Colision (8)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3551,7 +3551,7 @@ GameObject:
   - component: {fileID: 13757248}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3685,7 +3685,7 @@ GameObject:
   - component: {fileID: 23743390}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3953,7 +3953,7 @@ GameObject:
   - component: {fileID: 36131867}
   m_Layer: 0
   m_Name: Colision (19)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4771,7 +4771,7 @@ GameObject:
   - component: {fileID: 58631771}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4905,7 +4905,7 @@ GameObject:
   - component: {fileID: 62671277}
   m_Layer: 0
   m_Name: Colision (7)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5039,7 +5039,7 @@ GameObject:
   - component: {fileID: 63745004}
   m_Layer: 0
   m_Name: Colision (21)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5173,7 +5173,7 @@ GameObject:
   - component: {fileID: 64150526}
   m_Layer: 0
   m_Name: Colision (6)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5682,7 +5682,7 @@ GameObject:
   - component: {fileID: 71568355}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5816,7 +5816,7 @@ GameObject:
   - component: {fileID: 85671998}
   m_Layer: 0
   m_Name: Colision (25)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6498,7 +6498,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Presiona E para interactuar
+  m_text: 'Presiona F para interactuar
 
 '
   m_isRightToLeft: 0
@@ -6533,7 +6533,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6710,7 +6710,7 @@ GameObject:
   - component: {fileID: 133888119}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7318,7 +7318,7 @@ GameObject:
   - component: {fileID: 149622555}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7838,7 +7838,7 @@ GameObject:
   - component: {fileID: 168031610}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7972,7 +7972,7 @@ GameObject:
   - component: {fileID: 168489179}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8185,7 +8185,7 @@ GameObject:
   - component: {fileID: 172490116}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8319,7 +8319,7 @@ GameObject:
   - component: {fileID: 173970276}
   m_Layer: 0
   m_Name: Colision (12)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8797,7 +8797,7 @@ GameObject:
   - component: {fileID: 185332355}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9609,7 +9609,7 @@ GameObject:
   - component: {fileID: 212811601}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10061,7 +10061,7 @@ GameObject:
   - component: {fileID: 239728689}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10448,7 +10448,7 @@ GameObject:
   - component: {fileID: 258081313}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10756,7 +10756,7 @@ GameObject:
   - component: {fileID: 262331258}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10890,7 +10890,7 @@ GameObject:
   - component: {fileID: 263452688}
   m_Layer: 0
   m_Name: Colision (44)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11285,7 +11285,7 @@ GameObject:
   - component: {fileID: 294370465}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11506,7 +11506,7 @@ GameObject:
   - component: {fileID: 314935720}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12224,7 +12224,7 @@ GameObject:
   - component: {fileID: 347935699}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12597,7 +12597,7 @@ GameObject:
   - component: {fileID: 355867286}
   m_Layer: 0
   m_Name: Colision (44)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12731,7 +12731,7 @@ GameObject:
   - component: {fileID: 357295434}
   m_Layer: 0
   m_Name: Colision (41)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12865,7 +12865,7 @@ GameObject:
   - component: {fileID: 357841922}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16066,7 +16066,7 @@ GameObject:
   - component: {fileID: 370515139}
   m_Layer: 0
   m_Name: Colision (48)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16334,7 +16334,7 @@ GameObject:
   - component: {fileID: 393225759}
   m_Layer: 0
   m_Name: Colision (42)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16729,7 +16729,7 @@ GameObject:
   - component: {fileID: 403105044}
   m_Layer: 0
   m_Name: Colision (5)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16894,7 +16894,7 @@ GameObject:
   - component: {fileID: 410364096}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17028,7 +17028,7 @@ GameObject:
   - component: {fileID: 411353189}
   m_Layer: 0
   m_Name: Colision (43)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17162,7 +17162,7 @@ GameObject:
   - component: {fileID: 412479064}
   m_Layer: 0
   m_Name: Colision (42)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17296,7 +17296,7 @@ GameObject:
   - component: {fileID: 413227184}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17596,7 +17596,7 @@ GameObject:
   - component: {fileID: 416556143}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17888,7 +17888,7 @@ GameObject:
   - component: {fileID: 427842023}
   m_Layer: 0
   m_Name: Colision (9)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18242,7 +18242,7 @@ GameObject:
   - component: {fileID: 441727956}
   m_Layer: 0
   m_Name: Colision (46)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19148,7 +19148,7 @@ GameObject:
   - component: {fileID: 464502709}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19335,7 +19335,7 @@ GameObject:
   - component: {fileID: 466751990}
   m_Layer: 0
   m_Name: Colision (45)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19469,7 +19469,7 @@ GameObject:
   - component: {fileID: 469709789}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20076,7 +20076,7 @@ GameObject:
   - component: {fileID: 502977743}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20328,7 +20328,7 @@ GameObject:
   - component: {fileID: 511187707}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20808,7 +20808,7 @@ GameObject:
   - component: {fileID: 528627540}
   m_Layer: 0
   m_Name: Colision (46)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21104,7 +21104,7 @@ GameObject:
   - component: {fileID: 532434921}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21325,7 +21325,7 @@ GameObject:
   - component: {fileID: 535618128}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21546,7 +21546,7 @@ GameObject:
   - component: {fileID: 560496288}
   m_Layer: 0
   m_Name: Colision (42)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21680,7 +21680,7 @@ GameObject:
   - component: {fileID: 568085960}
   m_Layer: 0
   m_Name: Colision (4)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21814,7 +21814,7 @@ GameObject:
   - component: {fileID: 579536684}
   m_Layer: 0
   m_Name: Colision (16)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21948,7 +21948,7 @@ GameObject:
   - component: {fileID: 581233946}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22840,7 +22840,7 @@ GameObject:
   - component: {fileID: 618328151}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23750,7 +23750,7 @@ GameObject:
   - component: {fileID: 646978792}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23884,7 +23884,7 @@ GameObject:
   - component: {fileID: 648552454}
   m_Layer: 0
   m_Name: Colision (22)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24105,7 +24105,7 @@ GameObject:
   - component: {fileID: 655567964}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24239,7 +24239,7 @@ GameObject:
   - component: {fileID: 655943685}
   m_Layer: 0
   m_Name: Colision (15)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25055,7 +25055,7 @@ GameObject:
   - component: {fileID: 681815838}
   m_Layer: 0
   m_Name: Colision (47)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25351,7 +25351,7 @@ GameObject:
   - component: {fileID: 691500597}
   m_Layer: 0
   m_Name: Colision (46)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25572,7 +25572,7 @@ GameObject:
   - component: {fileID: 705432755}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25737,7 +25737,7 @@ GameObject:
   - component: {fileID: 706834990}
   m_Layer: 0
   m_Name: Colision (20)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25958,7 +25958,7 @@ GameObject:
   - component: {fileID: 723254113}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26242,7 +26242,7 @@ GameObject:
   - component: {fileID: 738395449}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26411,7 +26411,7 @@ GameObject:
   - component: {fileID: 750752279}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26545,7 +26545,7 @@ GameObject:
   - component: {fileID: 767240082}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26679,7 +26679,7 @@ GameObject:
   - component: {fileID: 773160642}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26844,7 +26844,7 @@ GameObject:
   - component: {fileID: 778493547}
   m_Layer: 0
   m_Name: Colision (21)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26978,7 +26978,7 @@ GameObject:
   - component: {fileID: 781166645}
   m_Layer: 0
   m_Name: Colision (18)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27735,7 +27735,7 @@ GameObject:
   - component: {fileID: 812236778}
   m_Layer: 0
   m_Name: Colision (42)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28326,7 +28326,7 @@ GameObject:
   - component: {fileID: 841672237}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28850,7 +28850,7 @@ GameObject:
   - component: {fileID: 865456609}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28984,7 +28984,7 @@ GameObject:
   - component: {fileID: 866433151}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29513,7 +29513,7 @@ GameObject:
   - component: {fileID: 876969024}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29683,7 +29683,7 @@ GameObject:
   - component: {fileID: 887878935}
   m_Layer: 0
   m_Name: Colision (42)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29817,7 +29817,7 @@ GameObject:
   - component: {fileID: 890410838}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30125,7 +30125,7 @@ GameObject:
   - component: {fileID: 903610722}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30346,7 +30346,7 @@ GameObject:
   - component: {fileID: 905615846}
   m_Layer: 0
   m_Name: Colision (45)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31073,7 +31073,7 @@ GameObject:
   - component: {fileID: 942848765}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31325,7 +31325,7 @@ GameObject:
   - component: {fileID: 954007032}
   m_Layer: 0
   m_Name: Colision (44)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31813,7 +31813,7 @@ GameObject:
   - component: {fileID: 968011268}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32416,7 +32416,7 @@ GameObject:
   - component: {fileID: 979205549}
   m_Layer: 0
   m_Name: Colision (43)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32637,7 +32637,7 @@ GameObject:
   - component: {fileID: 990515182}
   m_Layer: 0
   m_Name: Colision (46)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32909,7 +32909,7 @@ GameObject:
   - component: {fileID: 999970898}
   m_Layer: 0
   m_Name: Colision (45)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33043,7 +33043,7 @@ GameObject:
   - component: {fileID: 1000848059}
   m_Layer: 0
   m_Name: Colision (44)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33177,7 +33177,7 @@ GameObject:
   - component: {fileID: 1002390946}
   m_Layer: 0
   m_Name: Colision (41)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33581,7 +33581,7 @@ GameObject:
   - component: {fileID: 1017551878}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34326,7 +34326,7 @@ GameObject:
   - component: {fileID: 1026292061}
   m_Layer: 0
   m_Name: Colision (23)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34858,7 +34858,7 @@ GameObject:
   - component: {fileID: 1058697408}
   m_Layer: 0
   m_Name: Colision (44)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34992,7 +34992,7 @@ GameObject:
   - component: {fileID: 1062882656}
   m_Layer: 0
   m_Name: Colision (23)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35126,7 +35126,7 @@ GameObject:
   - component: {fileID: 1075712860}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35347,7 +35347,7 @@ GameObject:
   - component: {fileID: 1077585155}
   m_Layer: 0
   m_Name: Colision (32)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35481,7 +35481,7 @@ GameObject:
   - component: {fileID: 1078769993}
   m_Layer: 0
   m_Name: Colision (3)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35615,7 +35615,7 @@ GameObject:
   - component: {fileID: 1080736907}
   m_Layer: 0
   m_Name: Colision (11)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35991,7 +35991,7 @@ GameObject:
   - component: {fileID: 1094668406}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36125,7 +36125,7 @@ GameObject:
   - component: {fileID: 1102243739}
   m_Layer: 0
   m_Name: Colision (20)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36346,7 +36346,7 @@ GameObject:
   - component: {fileID: 1106520805}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36875,7 +36875,7 @@ GameObject:
   - component: {fileID: 1132044922}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37221,7 +37221,7 @@ GameObject:
   - component: {fileID: 1154452776}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37355,7 +37355,7 @@ GameObject:
   - component: {fileID: 1155129232}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37489,7 +37489,7 @@ GameObject:
   - component: {fileID: 1157931903}
   m_Layer: 0
   m_Name: Colision (13)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37836,7 +37836,7 @@ GameObject:
   - component: {fileID: 1160613156}
   m_Layer: 0
   m_Name: Colision (24)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37970,7 +37970,7 @@ GameObject:
   - component: {fileID: 1163697910}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38776,7 +38776,7 @@ GameObject:
   - component: {fileID: 1188271367}
   m_Layer: 0
   m_Name: Colision (43)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39084,7 +39084,7 @@ GameObject:
   - component: {fileID: 1192001606}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39613,7 +39613,7 @@ GameObject:
   - component: {fileID: 1211462714}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39747,7 +39747,7 @@ GameObject:
   - component: {fileID: 1218619156}
   m_Layer: 0
   m_Name: Colision (19)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40147,7 +40147,7 @@ GameObject:
   - component: {fileID: 1223297987}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41023,7 +41023,7 @@ GameObject:
   - component: {fileID: 1267015721}
   m_Layer: 0
   m_Name: Colision (17)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41574,7 +41574,7 @@ GameObject:
   - component: {fileID: 1278732808}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42881,7 +42881,7 @@ GameObject:
   - component: {fileID: 1331857935}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43148,7 +43148,7 @@ GameObject:
   - component: {fileID: 1347320200}
   m_Layer: 0
   m_Name: Colision (43)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43415,7 +43415,7 @@ GameObject:
   - component: {fileID: 1359639429}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43636,7 +43636,7 @@ GameObject:
   - component: {fileID: 1366955776}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44747,7 +44747,7 @@ GameObject:
   - component: {fileID: 1398168166}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45043,7 +45043,7 @@ GameObject:
   - component: {fileID: 1401717587}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45351,7 +45351,7 @@ GameObject:
   - component: {fileID: 1405741482}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45769,7 +45769,7 @@ GameObject:
   - component: {fileID: 1411136136}
   m_Layer: 0
   m_Name: Colision (11)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46077,7 +46077,7 @@ GameObject:
   - component: {fileID: 1422526755}
   m_Layer: 0
   m_Name: Colision (15)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46286,7 +46286,7 @@ GameObject:
   - component: {fileID: 1428395542}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46507,7 +46507,7 @@ GameObject:
   - component: {fileID: 1430123462}
   m_Layer: 0
   m_Name: Colision (41)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46641,7 +46641,7 @@ GameObject:
   - component: {fileID: 1430224855}
   m_Layer: 0
   m_Name: Colision (41)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47038,7 +47038,7 @@ GameObject:
   - component: {fileID: 1439995787}
   m_Layer: 0
   m_Name: Colision (2)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47172,7 +47172,7 @@ GameObject:
   - component: {fileID: 1441025969}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47681,7 +47681,7 @@ GameObject:
   - component: {fileID: 1448633842}
   m_Layer: 0
   m_Name: Colision (16)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47890,7 +47890,7 @@ GameObject:
   - component: {fileID: 1465232189}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48160,7 +48160,7 @@ GameObject:
   - component: {fileID: 1471327586}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48504,7 +48504,7 @@ GameObject:
   - component: {fileID: 1482635123}
   m_Layer: 0
   m_Name: Colision (12)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48812,7 +48812,7 @@ GameObject:
   - component: {fileID: 1502979124}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49207,7 +49207,7 @@ GameObject:
   - component: {fileID: 1511101692}
   m_Layer: 0
   m_Name: Colision (47)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49341,7 +49341,7 @@ GameObject:
   - component: {fileID: 1515789523}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49649,7 +49649,7 @@ GameObject:
   - component: {fileID: 1530426737}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49783,7 +49783,7 @@ GameObject:
   - component: {fileID: 1536502973}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49918,7 +49918,7 @@ GameObject:
   - component: {fileID: 1537052355}
   m_Layer: 0
   m_Name: Bardas
-  m_TagString: limites
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53725,7 +53725,7 @@ GameObject:
   - component: {fileID: 1538619660}
   m_Layer: 0
   m_Name: Colision (47)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53859,7 +53859,7 @@ GameObject:
   - component: {fileID: 1538669916}
   m_Layer: 0
   m_Name: Colision (35)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71229,7 +71229,7 @@ GameObject:
   - component: {fileID: 1559343180}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71537,7 +71537,7 @@ GameObject:
   - component: {fileID: 1571251540}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71999,7 +71999,7 @@ GameObject:
   - component: {fileID: 1613165656}
   m_Layer: 0
   m_Name: Colision (30)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72133,7 +72133,7 @@ GameObject:
   - component: {fileID: 1619790926}
   m_Layer: 0
   m_Name: Colision (10)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72343,7 +72343,7 @@ GameObject:
   - component: {fileID: 1623032656}
   m_Layer: 0
   m_Name: Colision (45)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72477,7 +72477,7 @@ GameObject:
   - component: {fileID: 1631093884}
   m_Layer: 0
   m_Name: Colision (13)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72995,7 +72995,7 @@ GameObject:
   - component: {fileID: 1656838944}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73160,7 +73160,7 @@ GameObject:
   - component: {fileID: 1669888498}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73428,7 +73428,7 @@ GameObject:
   - component: {fileID: 1674970159}
   m_Layer: 0
   m_Name: Colision (29)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73641,7 +73641,7 @@ GameObject:
   - component: {fileID: 1684555576}
   m_Layer: 0
   m_Name: Colision (26)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73775,7 +73775,7 @@ GameObject:
   - component: {fileID: 1690698376}
   m_Layer: 0
   m_Name: Colision (14)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73984,7 +73984,7 @@ GameObject:
   - component: {fileID: 1692936113}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74566,7 +74566,7 @@ GameObject:
   - component: {fileID: 1699357530}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74700,7 +74700,7 @@ GameObject:
   - component: {fileID: 1699430058}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74834,7 +74834,7 @@ GameObject:
   - component: {fileID: 1704257725}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75316,7 +75316,7 @@ GameObject:
   - component: {fileID: 1711695455}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75450,7 +75450,7 @@ GameObject:
   - component: {fileID: 1713249194}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75584,7 +75584,7 @@ GameObject:
   - component: {fileID: 1719191296}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75718,7 +75718,7 @@ GameObject:
   - component: {fileID: 1720109430}
   m_Layer: 0
   m_Name: Colision (22)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75852,7 +75852,7 @@ GameObject:
   - component: {fileID: 1724736473}
   m_Layer: 0
   m_Name: Colision (45)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77114,7 +77114,7 @@ GameObject:
   - component: {fileID: 1789156655}
   m_Layer: 0
   m_Name: Colision (27)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77947,7 +77947,7 @@ GameObject:
   - component: {fileID: 1834801310}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78168,7 +78168,7 @@ GameObject:
   - component: {fileID: 1836104812}
   m_Layer: 0
   m_Name: Colision (39)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78302,7 +78302,7 @@ GameObject:
   - component: {fileID: 1838832633}
   m_Layer: 0
   m_Name: Colision (24)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78772,7 +78772,7 @@ GameObject:
   - component: {fileID: 1852509316}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: botiquin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79443,7 +79443,7 @@ GameObject:
   - component: {fileID: 1876199242}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79741,7 +79741,7 @@ GameObject:
   - component: {fileID: 1894816029}
   m_Layer: 0
   m_Name: Colision (36)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80634,7 +80634,7 @@ GameObject:
   - component: {fileID: 1932859909}
   m_Layer: 0
   m_Name: Colision (33)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80843,7 +80843,7 @@ GameObject:
   - component: {fileID: 1936680419}
   m_Layer: 0
   m_Name: Colision (41)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81244,7 +81244,7 @@ GameObject:
   - component: {fileID: 1944790827}
   m_Layer: 0
   m_Name: Colision (49)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81409,7 +81409,7 @@ GameObject:
   - component: {fileID: 1960545821}
   m_Layer: 0
   m_Name: Colision (31)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82322,7 +82322,7 @@ GameObject:
   - component: {fileID: 1989349902}
   m_Layer: 0
   m_Name: Colision (14)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82494,7 +82494,7 @@ GameObject:
   - component: {fileID: 1993451517}
   m_Layer: 0
   m_Name: Colision (28)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82926,7 +82926,7 @@ GameObject:
   - component: {fileID: 2028043987}
   m_Layer: 0
   m_Name: Colision (37)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83367,7 +83367,7 @@ GameObject:
   - component: {fileID: 2042165473}
   m_Layer: 0
   m_Name: Colision (40)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83769,7 +83769,7 @@ GameObject:
   - component: {fileID: 2052441686}
   m_Layer: 0
   m_Name: Colision (1)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84259,7 +84259,7 @@ GameObject:
   - component: {fileID: 2074492697}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85165,7 +85165,7 @@ GameObject:
   - component: {fileID: 2095262113}
   m_Layer: 0
   m_Name: Colision (25)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85794,7 +85794,7 @@ GameObject:
   - component: {fileID: 2114844672}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86363,7 +86363,7 @@ GameObject:
   - component: {fileID: 2135481933}
   m_Layer: 0
   m_Name: Colision (34)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86631,7 +86631,7 @@ GameObject:
   - component: {fileID: 2140479248}
   m_Layer: 0
   m_Name: Colision (38)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86765,7 +86765,7 @@ GameObject:
   - component: {fileID: 2145462704}
   m_Layer: 0
   m_Name: Colision (43)
-  m_TagString: Untagged
+  m_TagString: limites
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

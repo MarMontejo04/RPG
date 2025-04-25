@@ -23,7 +23,7 @@ public class Npc : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerEnRango)
+        if (Input.GetKeyDown(KeyCode.F) && playerEnRango)
         {
             if (panelDialogo.activeInHierarchy)
             {

@@ -29,7 +29,7 @@ public class CCC : MonoBehaviour
         if (tiempoSigAtaque > 0) { 
             tiempoSigAtaque -= Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.G) && tiempoSigAtaque <= 0) {
+        if (Input.GetKeyDown(KeyCode.E) && tiempoSigAtaque <= 0) {
             atacando = true;
             Debug.Log(atacando.ToString());
             activaCapa("Ataque");
