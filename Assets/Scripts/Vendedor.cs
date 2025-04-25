@@ -5,10 +5,29 @@ using UnityEngine;
 public class Vendedor : MonoBehaviour
 {
     [SerializeField] private GameObject tienda;
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private bool playerEnRango;
+  
+    void Update()
     {
-        tienda.SetActive(true);
+        if (Input.GetKeyDown(KeyCode.E) && playerEnRango)
+        {
+            tienda.SetActive(true);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D obj)
+    {
+        if (obj.tag == "Player")
+        {
+            playerEnRango = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D obj)
+    {
+        if (obj.tag == "Player")
+        {
+            playerEnRango = false;
+        }
     }
 
 }

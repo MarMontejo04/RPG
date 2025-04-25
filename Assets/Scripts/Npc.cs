@@ -5,6 +5,7 @@ using System.Collections;
 
 public class Npc : MonoBehaviour
 {
+    public GameObject presionarE;
     [Header("Panel de diálogo")]
     public GameObject panelDialogo;
     public TMP_Text textoDialogo, textoNombre;
@@ -22,7 +23,7 @@ public class Npc : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerEnRango)
+        if (Input.GetKeyDown(KeyCode.F) && playerEnRango)
         {
             if (panelDialogo.activeInHierarchy)
             {
@@ -95,6 +96,8 @@ public class Npc : MonoBehaviour
         if (obj.tag == "Player")
         {
             playerEnRango = true;
+             presionarE.SetActive(true);
+
         }
     }
 
@@ -103,6 +106,7 @@ public class Npc : MonoBehaviour
         if (obj.tag == "Player")
         {
             playerEnRango = false;
+            presionarE.SetActive(false);
             ResetearDialogo();
         }
     }
