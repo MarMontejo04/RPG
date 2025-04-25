@@ -7567,7 +7567,6 @@ MonoBehaviour:
   - {fileID: 950960625}
   - {fileID: 917363759}
   - {fileID: 706549969}
-  - {fileID: 209719700}
   - {fileID: 1946140254}
   distanciaDeteccionPlayer: 3
   dropeable: {fileID: 641143934272950216, guid: 5bb1dc5e3285ed245a0eb81c5ad55d4b, type: 3}
@@ -35130,7 +35129,6 @@ MonoBehaviour:
   personaje: {fileID: 1406043168}
   puntosRuta:
   - {fileID: 1774760133}
-  - {fileID: 351381506}
   - {fileID: 89892691}
   - {fileID: 504115585}
   - {fileID: 128201697}
@@ -41258,11 +41256,11 @@ MonoBehaviour:
   anim: {fileID: 1251424199}
   personaje: {fileID: 1406043168}
   puntosRuta:
-  - {fileID: 1794187198}
   - {fileID: 641420047}
-  - {fileID: 1657670996}
   - {fileID: 774088807}
+  - {fileID: 1794187198}
   - {fileID: 1983333923}
+  - {fileID: 1657670996}
   distanciaDeteccionPlayer: 3
   dropeable: {fileID: 641143934272950216, guid: 5bb1dc5e3285ed245a0eb81c5ad55d4b, type: 3}
 --- !u!70 &1251424202
@@ -41932,11 +41930,10 @@ MonoBehaviour:
   anim: {fileID: 1274026250}
   personaje: {fileID: 1406043168}
   puntosRuta:
-  - {fileID: 917363759}
-  - {fileID: 209719700}
   - {fileID: 706549969}
-  - {fileID: 950960625}
   - {fileID: 1946140254}
+  - {fileID: 950960625}
+  - {fileID: 917363759}
   distanciaDeteccionPlayer: 3
   dropeable: {fileID: 641143934272950216, guid: 5bb1dc5e3285ed245a0eb81c5ad55d4b, type: 3}
 --- !u!70 &1274026253
@@ -78250,11 +78247,10 @@ MonoBehaviour:
   anim: {fileID: 1795316426}
   personaje: {fileID: 1406043168}
   puntosRuta:
-  - {fileID: 89892691}
   - {fileID: 504115585}
-  - {fileID: 1774760133}
-  - {fileID: 351381506}
   - {fileID: 128201697}
+  - {fileID: 1774760133}
+  - {fileID: 89892691}
   distanciaDeteccionPlayer: 3
   dropeable: {fileID: 641143934272950216, guid: 5bb1dc5e3285ed245a0eb81c5ad55d4b, type: 3}
 --- !u!70 &1795316429
