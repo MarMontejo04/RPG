@@ -5,11 +5,12 @@ using UnityEngine;
 public class Vendedor : MonoBehaviour
 {
     [SerializeField] private GameObject tienda;
+     [SerializeField] private GameObject presionarE;
     private bool playerEnRango;
   
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerEnRango)
+        if (Input.GetKeyDown(KeyCode.F) && playerEnRango)
         {
             tienda.SetActive(true);
         }
@@ -19,6 +20,8 @@ public class Vendedor : MonoBehaviour
         if (obj.tag == "Player")
         {
             playerEnRango = true;
+            presionarE.SetActive(true);
+
         }
     }
 
@@ -27,6 +30,8 @@ public class Vendedor : MonoBehaviour
         if (obj.tag == "Player")
         {
             playerEnRango = false;
+            presionarE.SetActive(false);
+
         }
     }
 
