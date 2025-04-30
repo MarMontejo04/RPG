@@ -44,6 +44,7 @@ public class Npc : MonoBehaviour
         retrato.sprite = retratoNPC;
         indice = 0;
         StartCoroutine(Escribir());
+        presionarE.SetActive(false);
     }
 
     IEnumerator Escribir()

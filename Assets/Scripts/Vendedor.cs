@@ -5,7 +5,7 @@ using UnityEngine;
 public class Vendedor : MonoBehaviour
 {
     [SerializeField] private GameObject tienda;
-     [SerializeField] private GameObject presionarE;
+     [SerializeField] private GameObject presionarF;
     private bool playerEnRango;
   
     void Update()
@@ -13,6 +13,7 @@ public class Vendedor : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && playerEnRango)
         {
             tienda.SetActive(true);
+            presionarF.SetActive(false);
         }
     }
     private void OnTriggerEnter2D(Collider2D obj)
@@ -20,7 +21,7 @@ public class Vendedor : MonoBehaviour
         if (obj.tag == "Player")
         {
             playerEnRango = true;
-            presionarE.SetActive(true);
+            presionarF.SetActive(true);
 
         }
     }
@@ -30,7 +31,7 @@ public class Vendedor : MonoBehaviour
         if (obj.tag == "Player")
         {
             playerEnRango = false;
-            presionarE.SetActive(false);
+            presionarF.SetActive(false);
 
         }
     }

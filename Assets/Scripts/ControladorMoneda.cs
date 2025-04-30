@@ -1,24 +1,51 @@
 using System.Collections;
- using System.Collections.Generic;
- using UnityEngine;
- using TMPro;
- 
- public class ControladorMoneda : MonoBehaviour
-{
-private int totalMonedas;
-[SerializeField] private TMP_Text textoMonedas;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+using TMPro;
 
-private void Start()
+public class ControladorMoneda : MonoBehaviour
 {
-Moneda.sumaMoneda += SumarMonedas;
+    public TMP_Text contadorTexto;
+    private int monedas;
+
+    void Start()
+    {
+        monedas = 0;
+        ActualizarTexto();
+    }
+
+    public void AgregarMonedas(int cantidad)
+    {
+        monedas += cantidad;
+        ActualizarTexto();
+    }
+
+    public bool GastarMonedas(int cantidad)
+{
+    if (monedas >= cantidad)
+    {
+        monedas -= cantidad;
+        ActualizarTexto();
+        return true;
+    }
+    return false;
 }
 
-private void SumarMonedas (int moneda)
-{
-totalMonedas += moneda;
-textoMonedas.text = totalMonedas.ToString();
+
+    private void ActualizarTexto()
+    {
+        if (contadorTexto != null)
+        {
+            contadorTexto.text = monedas.ToString();
+        }
+    }
+
+    public int ObtenerMonedas()
+    {
+        return monedas;
+    }
 }
 
-}
 
      

@@ -5,29 +5,23 @@ using System;
 
 public class Moneda : MonoBehaviour
 {
-    public delegate void SumaMoneda(int moneda);
-    public static event SumaMoneda sumaMoneda;
+    public int valor = 10;
 
-    [SerializeField] private int cantidadMonedas = 1; // Evita valores nulos
-
-    // Getter para acceder a la cantidad de monedas
-    public int CantidadMonedas
+    private void OnTriggerEnter2D(Collider2D obj)
     {
-        get { return cantidadMonedas; }
-        set { cantidadMonedas = value; }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+        if (obj.CompareTag("Player"))
         {
-            if (sumaMoneda != null) // Verifica que haya suscriptores
+            Debug.Log("Player tocó moneda. Valor: " + valor);
+            ControladorMoneda cm = GameObject.Find("ContadorManager")?.GetComponent<ControladorMoneda>();
+            if (cm != null)
             {
-                sumaMoneda(cantidadMonedas); // Dispara el evento con la cantidad correcta
+                cm.AgregarMonedas(valor);
             }
-            Destroy(this.gameObject);
+
+            Destroy(gameObject);
         }
     }
 }
+
 
 
