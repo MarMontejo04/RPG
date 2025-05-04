@@ -19,6 +19,8 @@ public class Enemigo : MonoBehaviour
     private bool playerEnRango = false;
     [SerializeField] private float distanciaDeteccionPlayer;
     [SerializeField] private GameObject dropeable;
+   
+    
 
     private void Awake()
     {
@@ -119,5 +121,9 @@ public class Enemigo : MonoBehaviour
             Instantiate(dropeable, v2Prefab, transform.rotation);
             Destroy(gameObject);
             }
-        }
+    }
+
+    public void Respawn(){
+       
+    }
 }
