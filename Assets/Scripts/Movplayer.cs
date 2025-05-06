@@ -15,6 +15,7 @@ public class Movplayer : MonoBehaviour
     private string capaAtaque = "Ataque";
     private bool PlayerMoviendose = false;
     private float ultimoMovX, ultimoMovY;
+    private bool puedeMoverse = true;
 
     public static int dirAtaque = 0;
 
@@ -25,12 +26,11 @@ public class Movplayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        Movimiento();
-
-        if (CCC.atacando == false && CAD.disparando == false)
-        {
+        if(puedeMoverse){
+            Movimiento();
             Animacionesplayer();
         }
+        
     }
 
     private void Movimiento()
@@ -115,5 +115,10 @@ public class Movplayer : MonoBehaviour
     public void RestaurarVelocidad()
     {
         velMov = velMovOriginal; 
+    }
+
+    public void BloquearMovimiento(bool estado){
+        puedeMoverse = !estado;
+        rb.linearVelocity = Vector2.zero;
     }
 }

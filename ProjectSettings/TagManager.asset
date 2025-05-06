@@ -30,6 +30,7 @@ TagManager:
   - brazo
   - engrane
   - Moneda
+  - arma
   layers:
   - Default
   - TransparentFX
