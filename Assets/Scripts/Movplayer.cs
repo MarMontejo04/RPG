@@ -79,8 +79,6 @@ public class Movplayer : MonoBehaviour
 
    private void ActualizaCapa()
 {
-    if (!CCC.atacando && !CAD.disparando) // Simplificado con "!"
-    {
         if (PlayerMoviendose)
         {
             activaCapa("Caminar");
@@ -88,12 +86,7 @@ public class Movplayer : MonoBehaviour
         else
         {
             activaCapa("Idle");
-        }
-    }
-    else  // ✅ Ahora el 'else' está correctamente colocado
-    {
-        activaCapa("Ataque");
-    }
+        }  
 }
 
 
